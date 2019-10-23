@@ -59,12 +59,6 @@ class Initial extends CI_Controller {
     PRIMARY KEY (id)
 );";
 /*release_result, election_start,election_end*/ 
- $sql5 = "CREATE TABLE mail_users (
-    id int(11) NOT NULL AUTO_INCREMENT,
-    mail varchar(128),
-    password varchar(128),
-    PRIMARY KEY (id)
-);";
 
 
  $sql6 = "CREATE TABLE mail_mails (
