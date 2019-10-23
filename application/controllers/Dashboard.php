@@ -69,13 +69,6 @@ if((time() >= $election_start ) && ($election_end >time() ))
 
 
 }
-
-public function test()
-{
-echo time();
-  var_dump($this->voters_model->get_available_position('id,label'));
- echo count($this->voters_model->get_available_position('id,label'));
-}
 public function vote()
 {
 
