@@ -1,5 +1,0 @@
-//set election time
-//add voters
-//mark voters as candidate
-//publish result
-//clear records
