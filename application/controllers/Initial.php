@@ -67,6 +67,7 @@ class Initial extends CI_Controller {
     receiver varchar(128),
     title varchar(225),
     message text,
+    unique_id varchar(128),
     time varchar(128),
     PRIMARY KEY (id)
 );";
