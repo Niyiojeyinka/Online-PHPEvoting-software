@@ -159,7 +159,7 @@ public function send_mock_up_email($voter)
  $this->db->update('users',array('email_vc' => $vcode),array('user_id' => $_SESSION['id']));
 
  $msg = array(
-'sender' => 'help@e-voting.com',
+'sender' => 'help@e-voting',
 'receiver' => $voter['email'],
 'title' => 'E-Voting | One Time Password',
 'message' => 'Dear '.$voter['firstname'].' <br><br>Your OTP Code is <b class="w3-text-green">'.$vcode.'</b><br>',
