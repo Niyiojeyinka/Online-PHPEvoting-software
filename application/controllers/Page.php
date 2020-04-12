@@ -2,11 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Page extends CI_Controller {
-  /**
-  *written by great members of group 7 of SWEP 200 2017/2018 SESSION
-
-  **/
-
+  
 public function __construct()
 {
      parent::__construct();

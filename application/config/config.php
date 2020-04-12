@@ -23,9 +23,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+$config['base_url'] = INSTALLER_SETTING['base_url'];
 
-$config['base_url'] = 'http://localhost/project/e-voting/';
-//$config['base_url'] = 'http://192.168.43.96/project/e-voting/';
+//$config['base_url'] = 'http://gettew.dev/ads';
+//$config['base_url'] = 'http://192.168.43.96/ads';
 
 /*
 |--------------------------------------------------------------------------
@@ -381,7 +382,7 @@ $config['encryption_key'] = '';
 */
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
-$config['sess_expiration'] = 7200;
+$config['sess_expiration'] = 15000;
 $config['sess_save_path'] = NULL;
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
